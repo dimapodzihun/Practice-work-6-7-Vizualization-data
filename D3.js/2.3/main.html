@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>D3.js</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      margin-bottom: 20px;
+      cursor: pointer;
+    }
+    .bar {
+      fill: steelblue;
+    }
+    .label {
+      font-size: 12px;
+      fill: black;
+    }
+  </style>
+</head>
+<body>
+
+<h2>Анімована зміна рейтингу фільмів</h2>
+
+<button id="start">Запустити анімацію</button>
+
+<svg id="chart" width="600" height="300"></svg>
+
+<script src="tasks.js"></script>
+</body>
+</html>
